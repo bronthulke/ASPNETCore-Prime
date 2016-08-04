@@ -1,0 +1,14 @@
+@model PrimeViewModel
+
+@{
+    ViewData["Title"] = "Prime Number Checker";
+}
+<h2>@ViewData["Title"]</h2>
+
+<form asp-controller="Home" asp-action="Prime" method="post" class="form-horizontal">
+    <label asp-for="Value" class="control-label">Enter a number to check if it's a prime:</label>
+    <input asp-for="Value" class="form-control" />
+    <input type="submit" value="Check" />
+</form>
+
+<h4>@ViewData["Message"]</h4>
