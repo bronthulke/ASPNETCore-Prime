@@ -1,4 +1,8 @@
 {
+  "description": "A project for testing out ASP.NET Core's MVC Site Template, based around utilising a basic prime number checker",
+    "authors": [
+        "Bron Thulke"
+    ],
   "userSecretsId": "aspnet-WebApplication-0799fe3e-6eaf-4c5f-b40e-7c6bfd5dfa9a",
 
   "dependencies": {
